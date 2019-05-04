@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+<body> 
+<ui:composition template="/WEB-INF/templates/master.xhtml">
+	<ui:define name="content">
+		<h:form id="frm">
+			<p:toolbar>
+				<f:facet name="left">
+					<p:commandButton value="Guardar" icon="ui-icon-document"
+					process="@this :frm:panelMenu"
+					action="#{VehiculoController.editarVehiculo()}" />
+					<p:commandButton id="btnVolver" value="Volver" 
+					action="ListadoVehiculo?faces-redirect=true" />
+					
+				</f:facet>
+			</p:toolbar>
+			<p:panelGrid id="panelMenu" columns="2">
+				<p:outputLabel value="Placa :" for="txtPlaca" />
+				<p:inputText id="txtPlaca"
+				 maxlength="100" value="#{VehiculoController.vehiculo.num_placa}"/>
+				 
+				 <p:outputLabel value="Modelo :" for="txtModelo" />
+				<p:inputText id="txtModelo"
+				 maxlength="100" value="#{VehiculoController.vehiculo.modelo}"/>
+				 
+				 <p:outputLabel value="Marca :" for="txtMarca" />
+				<p:inputText id="txtMarca"
+				 maxlength="100" value="#{VehiculoController.vehiculo.marca}"/>
+				 
+				 <p:outputLabel value="Anio :" for="txtAnio" />
+				<p:inputText id="txtAnio"
+				 maxlength="100" value="#{VehiculoController.vehiculo.anio}"/>
+				 
+				 <p:outputLabel value="Color :" for="txtColor" />
+				<p:inputText id="txtColor"
+				 maxlength="100" value="#{VehiculoController.vehiculo.color}"/>
+				 
+				 <p:outputLabel value="Cliente :" for="txtCliente" />
+				<p:inputText id="txtCliente"
+				 maxlength="100" value="#{VehiculoController.vehiculo.cliente}"/>
+				 
+				 <p:outputLabel value="Tipo :" for="txtTipo" />
+				<p:inputText id="txtTipo"
+				 maxlength="100" value="#{VehiculoController.vehiculo.tipo_vehiculo}"/>
+			</p:panelGrid>
+		</h:form>	
+	</ui:define>
+</ui:composition>
+</body> 
+</html>

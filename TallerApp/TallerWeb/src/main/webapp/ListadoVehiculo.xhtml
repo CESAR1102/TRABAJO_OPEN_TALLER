@@ -1,0 +1,53 @@
+<!DOCTYPE html > 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">  
+
+<h:head></h:head> 
+<body> 
+<ui:composition template="/WEB-INF/templates/master.xhtml">
+	<ui:define name="content">
+		<h:form id="frm">
+			<p:dataTable var="veh" 
+			value="#{VehiculoController.vehiculos}" rows="10" paginator="true" 
+			paginatorTemplate="{CurrentPageReport} {FirstPageLink} 
+			{PreviousPageLink} {PageLinks} {NextPageLink} 
+			{LastPageLink} {RowsPerPageDropdown}"
+			rowsPerPageTemplate="5,10,15">
+			<p:column headerText="Código">
+				<p:outputLabel value="#{veh.idVehiculo}" />
+			</p:column>
+			<p:column headerText="Placa">
+				<p:outputLabel value="#{veh.num_placa}" />
+			</p:column>
+			<p:column headerText="Modelo">
+				<p:outputLabel value="#{veh.modelo}" />
+			</p:column>
+			<p:column headerText="Marca">
+				<p:outputLabel value="#{veh.marca}" />
+			</p:column>
+			<p:column headerText="Anio">
+				<p:outputLabel value="#{veh.anio}" />
+			</p:column>
+			<p:column headerText="Color">
+				<p:outputLabel value="#{veh.color}" />
+			</p:column>
+			<p:column headerText="Cliente">
+				<p:outputLabel value="#{veh.cliente}" />
+			</p:column>
+			<p:column headerText="Tipo">
+				<p:outputLabel value="#{veh.tipo_vehiculo}" />
+			</p:column>
+			</p:dataTable>
+			
+			<p:commandButton value="Nuevo Vehiculo"
+			action="NewVehiculo?faces-redirect=true"/>
+			<p:commandButton value="Editar Vehiculo"
+			action="EditVehiculo?faces-redirect=true"/>
+		</h:form>
+	</ui:define>
+</ui:composition> 
+</body> 
+</html>
