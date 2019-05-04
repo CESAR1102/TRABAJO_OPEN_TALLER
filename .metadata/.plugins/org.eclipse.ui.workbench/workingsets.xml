@@ -9,4 +9,5 @@
 <item elementID="=TallerCore/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1556749867205_2" label="Window Working Set" name="Aggregate for window 1556749867204"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1556956300858_3" label="Window Working Set" name="Aggregate for window 1556956300858"/>
 </workingSetManager>
