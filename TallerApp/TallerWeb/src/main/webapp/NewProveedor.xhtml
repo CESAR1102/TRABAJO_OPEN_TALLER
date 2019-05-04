@@ -15,30 +15,30 @@
 					<p:commandButton value="Guardar" icon="ui-icon-document"
 					process="@this :frm:panelProveedor"
 					action="#{ProveedorController.guardarProveedor()}" />
-					<p:commandButton id="btnVolver" value="Volver" 
-					action="ListadoProveedores?faces-redirect=true" />	
+					<p:button  value="Volver" 
+					outcome="ListadoProveedores" />	
 				</f:facet>
 			</p:toolbar>
 			<p:panelGrid id="panelProveedor" columns="5">
 				<p:outputLabel value="RUC :" for="txtRUC" />
 				<p:inputText id="txtRUC"
-				 maxlength="100" value="#{{ProveedorController.proveedor.Ruc}"/>
+				 maxlength="100" value="#{ProveedorController.proveedor.Ruc}"/>
 				 
 				 <p:outputLabel value="Nombre :" for="txtNombre" />
 				<p:inputText id="txtNombre"
-				 maxlength="20" value="#{{ProveedorController.proveedor.Nombre}"/>
+				 maxlength="20" value="#{ProveedorController.proveedor.Nombre}"/>
 				 
 				 <p:outputLabel value="Telefono :" for="txttlf" />
 				<p:inputText id="txttlf"
-				 maxlength="100" value="#{{ProveedorController.proveedor.Telefono}"/>
+				 maxlength="100" value="#{ProveedorController.proveedor.Telefono}"/>
 				 
 				 <p:outputLabel value="Ciudad :" for="txtCiudad" />
 				<p:inputText id="txtCiudad"
-				 maxlength="100" value="#{{ProveedorController.proveedor.Ciudad}"/>
+				 maxlength="100" value="#{ProveedorController.proveedor.Ciudad}"/>
 				 
 				 <p:outputLabel value="Confiabilidad :" for="txtConfiabilidad" />
 				<p:inputText id="txtConfiabilidad"
-				 maxlength="100" value="#{{ProveedorController.proveedor.Confiabilidad}"/>
+				 maxlength="100" value="#{ProveedorController.proveedor.Confiabilidad}"/>
 				 
 		
 			</p:panelGrid>

@@ -15,8 +15,8 @@
 					<p:commandButton value="Guardar" icon="ui-icon-document"
 					process="@this :frm:panelCliente"
 					action="#{ClienteController.guardarCliente()}" />
-					<p:commandButton id="btnVolver" value="Volver" 
-					action="ListadoClientes?faces-redirect=true" />	
+					<p:button  value="Volver" 
+					outcome="ListadoClientes" />	
 				</f:facet>
 			</p:toolbar>
 			<p:panelGrid id="panelCliente" columns="2">
