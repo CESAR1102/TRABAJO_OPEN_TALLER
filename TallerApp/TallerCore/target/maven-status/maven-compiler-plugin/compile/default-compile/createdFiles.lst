@@ -1,0 +1,17 @@
+edu\upc\core\idao\IFacturaDao.class
+edu\upc\core\dao\FacturaDaoPostgres.class
+edu\upc\core\entity\Asistente.class
+edu\upc\core\dao\ClienteDaoPostgres.class
+edu\upc\core\entity\Cliente.class
+edu\upc\core\entity\Proveedor.class
+edu\upc\core\idao\ITipoPagoDao.class
+edu\upc\core\entity\Factura.class
+edu\upc\core\util\UtilCore.class
+edu\upc\core\idao\IClienteDao.class
+edu\upc\core\dao\AsistenteDaoPostgres.class
+edu\upc\core\idao\IAsistenteDao.class
+edu\upc\core\idao\IProveedorDao.class
+edu\upc\core\dao\ProveedorDaoPostgres.class
+edu\upc\core\dao\Conexion.class
+edu\upc\core\dao\TipoPagoDaoPostgres.class
+edu\upc\core\entity\TipoPago.class

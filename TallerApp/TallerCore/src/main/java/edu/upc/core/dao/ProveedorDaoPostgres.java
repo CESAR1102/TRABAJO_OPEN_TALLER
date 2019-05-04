@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.upc.core.entity.Asistente;
+
 import edu.upc.core.entity.Proveedor;
 import edu.upc.core.idao.IProveedorDao;
 

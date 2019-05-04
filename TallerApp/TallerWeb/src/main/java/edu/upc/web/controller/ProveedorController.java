@@ -1,5 +1,6 @@
 package edu.upc.web.controller;
 
+import java.io.Serializable;
 import java.util.List;
 
 import javax.faces.view.ViewScoped;
@@ -12,7 +13,7 @@ import edu.upc.core.idao.IProveedorDao;
 
 @Named("ProveedorController")
 @ViewScoped
-public class ProveedorController {
+public class ProveedorController implements Serializable {
 
 	
 	private static final long serialVersionUID = 1L;
