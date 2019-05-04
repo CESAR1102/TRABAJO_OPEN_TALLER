@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">  
+
+<h:head></h:head> 
+<body> 
+<ui:composition template="/WEB-INF/templates/master.xhtml">
+	<ui:define name="content">
+		<h:form id="frm">
+			<p:toolbar>
+				<f:facet name="left">
+					<p:commandButton value="Guardar" icon="ui-icon-document"
+					process="@this :frm:panelProveedor"
+					action="#{ProveedorController.guardarProveedor()}" />
+					<p:button  value="Volver" 
+					outcome="ListadoProveedores" />	
+				</f:facet>
+			</p:toolbar>
+			<p:panelGrid id="panelProveedor" columns="5">
+				<p:outputLabel value="RUC :" for="txtRUC" />
+				<p:inputText id="txtRUC"
+				 maxlength="100" value="#{ProveedorController.proveedor.ruc}"/>
+				 
+				 <p:outputLabel value="Nombre :" for="txtNombre" />
+				<p:inputText id="txtNombre"
+				 maxlength="20" value="#{ProveedorController.proveedor.nombre}"/>
+				 
+				 <p:outputLabel value="Telefono :" for="txttlf" />
+				<p:inputText id="txttlf"
+				 maxlength="100" value="#{ProveedorController.proveedor.telefono}"/>
+				 
+				 <p:outputLabel value="Ciudad :" for="txtCiudad" />
+				<p:inputText id="txtCiudad"
+				 maxlength="100" value="#{ProveedorController.proveedor.ciudad}"/>
+				 
+				 <p:outputLabel value="Confiabilidad :" for="txtConfiabilidad" />
+				<p:inputText id="txtConfiabilidad"
+				 maxlength="100" value="#{ProveedorController.proveedor.confiabilidad}"/>
+				 
+		
+			</p:panelGrid>
+		</h:form>	
+	</ui:define>
+</ui:composition>
+</body> 
+</html>

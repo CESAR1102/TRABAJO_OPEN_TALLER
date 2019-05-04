@@ -23,12 +23,13 @@ public class ClienteDaoPostgres implements IClienteDao {
 			
 			
 			cn = getConexion();
-			String sql = "INSERT INTO \"Cliente\"(DNI,Nombre,Ciudad,Telefono) VALUES(?)";
+			String sql = "INSERT INTO \"Cliente\"  VALUES(?,?,?,?,?)";
 			pr = cn.prepareStatement(sql,PreparedStatement.RETURN_GENERATED_KEYS);
-			pr.setString(1, c.getDNI());
-			pr.setString(1, c.getNombre());
-			pr.setString(1, c.getCiudad());
-			pr.setString(1, c.getTelefono());
+			pr.setInt(1, c.getCodigoCliente());
+			pr.setString(2, c.getDNI());
+			pr.setString(3, c.getNombre());
+			pr.setString(4, c.getCiudad());
+			pr.setString(5, c.getTelefono());
 			pr.executeUpdate();
 			rs= pr.getGeneratedKeys();
 			rs.next();

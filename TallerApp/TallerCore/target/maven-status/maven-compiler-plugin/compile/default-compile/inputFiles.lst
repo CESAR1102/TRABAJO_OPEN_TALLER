@@ -1,14 +1,17 @@
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Factura.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\util\UtilCore.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\AsistenteDaoPostgres.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\ClienteDaoPostgres.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\Conexion.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\TipoPagoDaoPostgres.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IClienteDao.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IFacturaDao.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Cliente.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\TipoPago.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IAsistenteDao.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\FacturaDaoPostgres.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Asistente.java
-C:\Users\Cesar Gutierrez\Documents\GitHub\TRABAJO_OPEN_TALLER\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\ITipoPagoDao.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\TipoPagoDaoPostgres.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Asistente.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IClienteDao.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IFacturaDao.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\ProveedorDaoPostgres.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\ClienteDaoPostgres.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\util\UtilCore.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\TipoPago.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\FacturaDaoPostgres.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IAsistenteDao.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\AsistenteDaoPostgres.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\IProveedorDao.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Factura.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\idao\ITipoPagoDao.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Cliente.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\entity\Proveedor.java
+C:\Users\Cesar Gutierrez\Desktop\app open source\TRABAJO_PARCIAL_OPEN_SOURCE\trabajo_open_ver4\TallerApp\TallerCore\src\main\java\edu\upc\core\dao\Conexion.java
