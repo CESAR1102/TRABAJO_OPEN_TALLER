@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>TallerCore</module>
+  	<module>TallerWeb</module>
   </modules>
   
   <properties>

@@ -12,12 +12,12 @@ public class Cliente implements Serializable {
 	private String  DNI;
 	private String Nombre;
 	private String Ciudad ;
-	private long Telefono;
+	private String Telefono;
 	
 	public Cliente() {
 	}
 
-	public Cliente(int codigoCliente, String dNI, String nombre, String ciudad, int telefono) {
+	public Cliente(int codigoCliente, String dNI, String nombre, String ciudad, String telefono) {
 	
 		this.codigoCliente = codigoCliente;
 		this.DNI = dNI;
@@ -39,7 +39,7 @@ public class Cliente implements Serializable {
 	}
 
 	public void setDNI(String dNI) {
-		DNI = dNI;
+		this.DNI= dNI;
 	}
 
 	public String getNombre() {
@@ -47,7 +47,7 @@ public class Cliente implements Serializable {
 	}
 
 	public void setNombre(String nombre) {
-		Nombre = nombre;
+		this.Nombre = nombre;
 	}
 
 	public String getCiudad() {
@@ -55,15 +55,15 @@ public class Cliente implements Serializable {
 	}
 
 	public void setCiudad(String ciudad) {
-		Ciudad = ciudad;
+		this.Ciudad = ciudad;
 	}
 
-	public long getTelefono() {
+	public String getTelefono() {
 		return Telefono;
 	}
 
-	public void setTelefono(long telefono) {
-		Telefono = telefono;
+	public void setTelefono(String telefono) {
+		this.Telefono = telefono;
 	}
 
 	@Override

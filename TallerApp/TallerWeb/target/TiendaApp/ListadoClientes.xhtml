@@ -1,0 +1,42 @@
+<!DOCTYPE html > 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">  
+
+<h:head></h:head> 
+<body> 
+<ui:composition template="/WEB-INF/templates/master.xhtml">
+	<ui:define name="content">
+		<h:form id="frm">
+			<p:dataTable var="cli" 
+			value="#{ClienteController.clientes}" rows="10" paginator="true" 
+			paginatorTemplate="{CurrentPageReport} {FirstPageLink} 
+			{PreviousPageLink} {PageLinks} {NextPageLink} 
+			{LastPageLink} {RowsPerPageDropdown}"
+			rowsPerPageTemplate="5,10,15">
+			<p:column headerText="Código">
+				<p:outputLabel value="#{cli.codigoCliente}" />
+			</p:column>
+			<p:column headerText="DNI">
+				<p:outputLabel value="#{cli.DNI}" />
+			</p:column>
+			<p:column headerText="Nombre">
+				<p:outputLabel value="#{cli.Nombre}" />
+			</p:column>
+			<p:column headerText="Ciudad">
+				<p:outputLabel value="#{cli.Ciudad}" />
+			</p:column>
+			<p:column headerText="telefono">
+				<p:outputLabel value="#{cli.Telefono}" />
+			</p:column>
+			</p:dataTable>
+			
+			<p:commandButton value="Nuevo Cliente"
+			action="NewCliente?faces-redirect=true"/>
+		</h:form>
+	</ui:define>
+</ui:composition> 
+</body> 
+</html>
